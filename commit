@@ -1,0 +1,3 @@
+echo "." >> demo.txt
+git add demo.txt
+git commit -m "."

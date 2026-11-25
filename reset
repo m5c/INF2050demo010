@@ -1,0 +1,15 @@
+# reset local .git
+rm -rf .git
+git init
+# rekindle with origin
+git remote add origin https://github.com/m5c/INF2050demo010.git
+# add initial version
+echo "---" demo.txt
+git add demo.txt
+git add reset
+git add commit
+git commit -m "initial commit"
+# force push
+git push --force origin --all
+git push --force origin --tags
+git push --set-upstream origin main
